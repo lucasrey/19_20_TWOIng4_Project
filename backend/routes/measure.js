@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 // we import our measure controller
-var measure = require('../controllers/measure.controller');
+var measure = require('../controleurs/measure.controller');
 
 /* GET one measure */
 router.get('/:measureId', measure.findOne);

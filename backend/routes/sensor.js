@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 // we import our sensor controller
-var sensor = require('../controllers/sensor.controller');
+var sensor = require('../controleurs/sensor.controller');
 
 /* GET one sensor */
 router.get('/:sensorId', sensor.findOne);

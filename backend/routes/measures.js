@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var measure = require('../controllers/measure.controller');
+var measure = require('../controleurs/measure.controller');
 
 /* GET measures listing. */
 router.get('/', measure.findAll);
